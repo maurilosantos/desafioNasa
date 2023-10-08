@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from "react-teffex";
-import "./Insalluvion.css";
 
 function Insalluvion() {
    
