@@ -1,4 +1,3 @@
-import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -23,7 +22,6 @@ import Ver_pela_janela_o_novo_exoplaneta_encontrado from './components/paginas/V
           // <Route path={"/Bem_vindo"} element={<Bem_vindo/>}></Route>
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
