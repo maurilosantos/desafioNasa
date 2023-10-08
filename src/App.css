@@ -17,3 +17,9 @@ body {
 	--aug-border-all: 2px !important;
 	padding: 10px;
 }
+
+.planeta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
