@@ -6,7 +6,7 @@ function Escolher_Insalubers_63() {
     <>
     		  <div className="borda" data-augmented-ui="tl-clip tr-clip-y br-2-clip-x both">
 		  <div className="chat">
-		  <figure className="avatar"><img className="ia" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border"/><figcaption>Insalubera</figcaption></figure>
+		  <figure className="avatar"><img className="ia_confusa2" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border"/><figcaption>Insalubera</figcaption></figure>
         <Typewriter
           text="My sensors are confused??? //Recalculating...// This is strange, but the calculations are correct…"
           cursorSettings={{ color: "transparent" }}

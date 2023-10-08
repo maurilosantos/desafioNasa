@@ -10,7 +10,7 @@ function Escolher_Kelt_9b() {
 	  >
 	  <div className="chat">
 	  <figure className="avatar">
-  <img className="ia" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border"/><figcaption>Insalubera</figcaption>
+  <img className="ia_confusa" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border"/><figcaption>Insalubera</figcaption>
 	  </figure>
   <div>
   <div className="image" data-augmented-ui="tl-2-clip-y tr-clip br-2-clip-x bl-clip both">
