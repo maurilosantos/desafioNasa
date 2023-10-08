@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from 'react-teffex';
 
@@ -13,7 +12,7 @@ I just updated my database with NASA's database, but we still have a lot of info
 Get to know each of them:
 "
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1,}}
         />
       </p>
       <Link to={"/Escolher_Kelt_9b"}>

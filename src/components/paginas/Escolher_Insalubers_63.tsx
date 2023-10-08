@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Typewriter, Glitch } from 'react-teffex';
 
@@ -10,7 +9,7 @@ function Escolher_Insalubers_63() {
           text="
 IInsalubera: My sensors are confused??? //Recalculating...// This is strange, but the calculations are correct…"
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
         />
       </p>
       <Link to={"/O_que_aconteceu"}>

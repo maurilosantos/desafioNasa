@@ -1,11 +1,9 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
-import { Glitch, Typewriter } from "react-teffex";
-import './Bem_vindo.css'
-import 'augmented-ui/augmented-ui.css'; // Importe o arquivo CSS do augmented-ui
+import { Glitch, Typewriter } from 'react-teffex';
+import './Bem_vindo.css';
+import 'augmented-ui/augmented-ui.css';
 
 function bem_vindo() {
-   
   return (
     <>
       <div
@@ -16,18 +14,18 @@ function bem_vindo() {
           <Typewriter
             text="Welcome!"
             cursorSettings={{ color: "transparent" }}
-            typeSettings={{ typeDelay: "0.8" }}
+            typeSettings={{ typeDelay: 0.8,  stutterChance: 0.1, }}
           />
         </h1>
         <h3>
           <Link to={"/Insalluvion"}>
             <button className="button" data-augmented-ui="br-clip border">
-              <Glitch alphabet text="COMEÇAR" />
+              <Glitch alphabet text="START" />
             </button>
           </Link>
           <button className="button" data-augmented-ui="br-clip border">
             <Typewriter
-              text="CRÉDITOS"
+              text="CREDITS"
               cursorSettings={{ color: "transparent" }}
             />
           </button>
@@ -37,5 +35,4 @@ function bem_vindo() {
   );
 }
 
-export default bem_vindo
-
+export default bem_vindo;

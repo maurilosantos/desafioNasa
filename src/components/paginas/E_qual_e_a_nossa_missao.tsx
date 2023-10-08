@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from 'react-teffex';
 
@@ -12,7 +11,7 @@ function E_qual_e_a_nossa_missao() {
 Let's begin the mission.
 "
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
         />
       </p>
       <Link to={"/Vamos_começar_a_missao"}>

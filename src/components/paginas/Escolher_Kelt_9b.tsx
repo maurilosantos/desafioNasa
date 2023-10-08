@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from 'react-teffex';
 
@@ -14,7 +13,7 @@ function Escolher_Kelt_9b() {
         <Typewriter
           text="Insalubera: I feel my sensors overheating; it's really hot here... You can tell we're close to Kelt-9b, the hottest planet ever recorded in my database. No molecule can withstand its bright side; this planet has a star twice the size of the sun. I don't think this would be a good place to live."
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
         />
       </p>
       <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>

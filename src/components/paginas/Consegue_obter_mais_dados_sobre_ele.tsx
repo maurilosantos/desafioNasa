@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Typewriter, Glitch } from 'react-teffex';
 
@@ -13,7 +12,7 @@ function Consegue_obter_mais_dados_sobre_ele() {
 
 "
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
         />
       </p>
       <Link to={"/Si_aproximar_do_novo_exoplaneta"}>

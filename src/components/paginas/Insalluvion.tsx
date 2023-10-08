@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from "react-teffex";
 
@@ -11,7 +10,7 @@ function Insalluvion() {
           text="Insalubera: Good morning, Crew member! It's time to wake up, we have a lot of work to do today.
 	"
           cursorSettings={{ color: "transparent" }}
-          typeSettings={{ typeDelay: "0.8" }}
+          typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
         />
       </p>
       <Link to={"/Ha_Onde_estou"}>
