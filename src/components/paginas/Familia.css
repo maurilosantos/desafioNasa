@@ -1,0 +1,13 @@
+.familia-container {
+    text-align: center;
+}
+
+.familia-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+}

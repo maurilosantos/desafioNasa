@@ -73,12 +73,12 @@ text-align:center;
   .planet-image {
 	width: 100%; /* Ajusta a largura da imagem para ocupar todo o contêiner */
 	height: auto; /* Mantém a proporção da imagem */
-	max-width: 450px; /* Define um limite máximo de largura para a imagem */
+	max-width: 400px; /* Define um limite máximo de largura para a imagem */
   }
   /*______________________________*/
 
   /* CSS do Insalluvion: */
-  
+
   .container {
 	display: flex;
 	flex-direction: column;

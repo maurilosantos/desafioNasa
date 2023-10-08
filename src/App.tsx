@@ -22,6 +22,7 @@ import Ver_pela_janela_o_novo_exoplaneta_encontrado from './components/paginas/V
 import IniciarPouso from './components/paginas/IniciarPouso'
 import AmbientePlantas from './components/paginas/AmbientePlantas'
 import Familia from './components/paginas/Familia'
+import Planet from './components/paginas/planet'
 // import Bem_vindo from './components/paginas/Bem_vindo'
           // <Route path={"/Bem_vindo"} element={<Bem_vindo/>}></Route>
 
@@ -51,6 +52,7 @@ function App() {
           <Route path={"/Iniciar_o_pouso"} element={<IniciarPouso/>}></Route>
           <Route path={"/AmbientePlantas"} element={<AmbientePlantas/>}></Route>
           <Route path={"/familia"} element={<Familia/>}></Route>
+          <Route path={"/planet"} element={<Planet/>}></Route>
 
         </Routes>
       </BrowserRouter>
