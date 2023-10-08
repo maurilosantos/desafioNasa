@@ -70,6 +70,7 @@ text-align:center;
 /*CSS do componente Ver_pela_janela_o_novo_exoplaneta_encontrado */
 
 .image-container {
+	--aug-border-bg: #9350ad !important;
 	max-width: 100%;
 	text-align: center; /* Centraliza a imagem na tela */
 	
@@ -90,17 +91,23 @@ text-align:center;
 	flex-direction: column;
 	align-items: center; /* Centraliza o conteúdo horizontalmente */
 	text-align: center; /* Centraliza o texto horizontalmente */
-  }
-  
-  .avatar-chat-container {
+	--aug-border-bg: #5458a7 !important;
+	--aug-tr: 15px !important;
+	padding: 22px;
+	--c1: black !important;
+	--aug-inlay-all: 0.5rem !important;
+	--aug-inlay-bg: #001237b8 !important;
+}
+
+.avatar-chat-container {
 	margin-bottom: 20px; /* Espaçamento entre o avatar/Typewriter e os botões */
-  }
-  
-  .button-container {
+}
+
+.button-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center; /* Centraliza os botões horizontalmente */
-  }
+}
 
-  /*______________________*/
-  
+/*______________________*/
+

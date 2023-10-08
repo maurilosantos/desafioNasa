@@ -4,6 +4,7 @@ import './Familia.css'; // Importe seu arquivo CSS aqui
 
 function Familia() {
   return (
+		      <div className="container" data-augmented-ui="tl-clip tr-clip-y br-2-clip-x both">
     <div className="familia-container">
       <div
           className="image familia"
@@ -16,17 +17,25 @@ function Familia() {
       />
       </div>
       <div className="typewriter">
-      <Typewriter
-        text="In this new world, a family's daily life is filled with wonder as they nurture and interact with their robotic-animal hybrids, creating a harmonious existence."
-        cursorSettings={{ color: "transparent" }}
-        typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
-      />
+        <div className="avatar-chat-container">
+          <figure className="avatar">
+            <img className="ia" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border" />
+            <figcaption>Insalubera</figcaption>
+          </figure>
+          <div className="typewriter">
+          <Typewriter
+text="Message: 'Earth, this is the NAZA team on Insalubers-63. Landing operations have been successful, and we are preparing our dome for growing food. Initial soil readings are promising and suggest that this planet could be a new home for humanity. We will continue to collect data and keep you updated on our progress. Rest assured, we are making history here. In this new world, a family's daily life is filled with wonder as they nurture and interact with their robotic-animal hybrids, creating a harmonious existence."
+
+            cursorSettings={{ color: "transparent" }}
+            typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
+          />
+          </div>
+			</div>
       </div>
-
-      <Link to={"/planet"}>
+    </div>
+      <Link to={"/Creditos"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text="The Description" />
-
+          <Glitch alphabet text="Credits" />
         </button>
       </Link>
     </div>

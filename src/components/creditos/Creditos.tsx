@@ -18,12 +18,12 @@ linkedin: "https://www.linkedin.com/in/jessicamendesraulino",
 {
 nome: "LARISSA PIMENTA",
 github: "https://github.com/LarissaMarquesPimenta",
-linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
+linkedin: "https://www.linkedin.com/in/larissamarquespimenta",
 },
 {
 nome: "MAURILIO SANTOS",
 github: "https://github.com/maurilosantos",
-linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
+linkedin: "https://www.linkedin.com/in/maurilosantos",
 },
 {
 nome: "RENATO NUNES",
@@ -33,7 +33,7 @@ linkedin: "https://www.linkedin.com/in/renato-nunes",
 {
 nome: "VINICIUS SILVA",
 github: "https://github.com/VinnyPC",
-linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
+linkedin: "https://www.linkedin.com/in/larissamarquespimenta",
 },
 ]
   return (
@@ -57,8 +57,12 @@ linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
 	  </div>
 	  <div className="" style={{padding: '10px'}} data-augmented-ui="tl-clip t-rect-x tr-clip r-clip-xy br-clip bl-clip l-clip-xy both">
 	  <h4><Glitch alphabet text={desenvolvedor.nome} /></h4>
+          <Link to={desenvolvedor.github} style={{color: 'white'}}>
 	  <h4><Glitch alphabet text="GITHUB" /></h4>
+	  </Link>
+          <Link to={desenvolvedor.linkedin} style={{color: 'white'}}>
 	  <h4><Glitch alphabet text="LINKEDIN" /></h4>
+	  </Link>
 	  </div>
 	  </div>
 		))}

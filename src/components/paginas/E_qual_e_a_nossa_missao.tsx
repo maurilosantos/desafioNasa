@@ -16,13 +16,13 @@ function E_qual_e_a_nossa_missao() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Vamos_começar_a_missao"}>
           <button className="button" data-augmented-ui="br-clip both">
             <Glitch alphabet text="Let's begin the mission." />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

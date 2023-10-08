@@ -18,13 +18,13 @@ function Voce_acha_que_e_seguro_se_aproximar() {
           />
           </div>
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Consegue_obter_mais_dados_sobre_ele"}>
           <button className="button" data-augmented-ui="br-clip both">
             <Glitch alphabet text="Can you obtain more data about it?" />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

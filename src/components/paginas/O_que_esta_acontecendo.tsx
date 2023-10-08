@@ -17,12 +17,12 @@ function O_que_esta_acontecendo() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1, }}
           />
         </div>
-      </div>
       <Link to={"/E_qual_e_a_nossa_missao"}>
         <button className="button" data-augmented-ui="br-clip both">
           <Glitch alphabet text="And what is our mission?" />
         </button>
       </Link>
+      </div>
     </>
   );
 }

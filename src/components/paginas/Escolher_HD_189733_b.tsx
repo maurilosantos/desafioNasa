@@ -26,7 +26,6 @@ function Escolher_HD_189733_b() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
           </div>
-        </div>
       </div>
       <div className="button-container">
         <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>
@@ -45,6 +44,7 @@ function Escolher_HD_189733_b() {
           </button>
         </Link>
       </div>
+        </div>
     </>
   );
 }

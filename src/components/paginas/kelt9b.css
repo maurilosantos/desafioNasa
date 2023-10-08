@@ -12,12 +12,12 @@
   .planet-image {
     width: 100%; /* Ajusta a largura da imagem para ocupar todo o contêiner */
     max-width: 640px; /* Define um limite máximo de largura para a imagem */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-  
-  .typewriter {
-    max-width: 100%; /* Define um limite máximo de largura para o Typewriter */
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
+	height: auto; /* Mantém a proporção da imagem */
+}
+
+.typewriter {
+	max-width: 100%; /* Define um limite máximo de largura para o Typewriter */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+

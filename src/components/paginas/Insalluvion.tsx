@@ -15,7 +15,6 @@ function Insalluvion() {
             cursorSettings={{ color: "transparent" }}
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
-        </div>
       </div>
       <div className="button-container">
         <Link to={"/Ha_Onde_estou"}>
@@ -29,6 +28,7 @@ function Insalluvion() {
           </button>
         </Link>
       </div>
+        </div>
     </>
   );
 }

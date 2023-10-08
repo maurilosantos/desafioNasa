@@ -16,7 +16,6 @@ function Voltar_a_escolha_dos_Exoplanetas() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Escolher_Kelt_9b"}>
           <button className="button" data-augmented-ui="br-clip both">
@@ -33,6 +32,7 @@ function Voltar_a_escolha_dos_Exoplanetas() {
             <Glitch alphabet text="Choose HD 189733 b" />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

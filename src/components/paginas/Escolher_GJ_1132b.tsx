@@ -24,7 +24,6 @@ function Escolher_GJ_1132b() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
 		  </div>
-        </div>
       </div>
       <div className="button-container">
         <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>
@@ -43,6 +42,7 @@ function Escolher_GJ_1132b() {
           </button>
         </Link>
       </div>
+        </div>
     </>
   );
 }

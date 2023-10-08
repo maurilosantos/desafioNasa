@@ -20,13 +20,13 @@ function Consegue_obter_mais_dados_sobre_ele() {
           />
           </div>
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Si_aproximar_do_novo_exoplaneta"}>
           <button className="button" data-augmented-ui="br-clip both">
             <Glitch alphabet text="Approach the new exoplanet" />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

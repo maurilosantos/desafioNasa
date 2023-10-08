@@ -26,7 +26,6 @@ function Escolher_Kelt_9b() {
           />
           </div>
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>
           <button className="button" data-augmented-ui="br-clip both">
@@ -43,6 +42,7 @@ function Escolher_Kelt_9b() {
             <Glitch alphabet text="Go to HD 189733 b" />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

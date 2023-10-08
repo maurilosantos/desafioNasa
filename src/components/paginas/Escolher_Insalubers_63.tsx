@@ -7,7 +7,7 @@ function Escolher_Insalubers_63() {
       <div className="container" data-augmented-ui="tl-clip tr-clip-y br-2-clip-x both">
         <div className="avatar-chat-container">
           <figure className="avatar">
-            <img className="ia" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border" />
+            <img className="ia_confusa2" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border" />
             <figcaption>Insalubera</figcaption>
           </figure>
           <div className="typewriter">
@@ -18,13 +18,13 @@ function Escolher_Insalubers_63() {
           />
           </div>
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/O_que_aconteceu"}>
           <button className="button" data-augmented-ui="br-clip both">
             <Glitch alphabet text="What happened?" />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

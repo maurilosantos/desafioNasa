@@ -18,7 +18,6 @@ function Bem_vindo() {
           />
           </div>
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/Ver_pela_janela_o_novo_exoplaneta_encontrado"}>
           <button className="button" data-augmented-ui="br-clip both">
@@ -28,6 +27,7 @@ function Bem_vindo() {
             />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );

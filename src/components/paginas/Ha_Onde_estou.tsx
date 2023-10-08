@@ -16,7 +16,6 @@ function Ha_Onde_estou() {
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />
         </div>
-      </div>
       <div className="button-container">
         <Link to={"/E_qual_e_a_nossa_missao"}>
           <button className="button" data-augmented-ui="br-clip both">
@@ -26,6 +25,7 @@ function Ha_Onde_estou() {
             />
           </button>
         </Link>
+      </div>
       </div>
     </>
   );
