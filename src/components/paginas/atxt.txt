@@ -1,0 +1,12 @@
+<Typewriter
+          text=""
+          cursorSettings={{ color: "transparent" }}
+          typeSettings={{ typeDelay: "0.8" }}
+        />
+
+        <button className="button" data-augmented-ui="br-clip border">
+          <Glitch
+            alphabet
+            text=""
+          />
+        </button>
