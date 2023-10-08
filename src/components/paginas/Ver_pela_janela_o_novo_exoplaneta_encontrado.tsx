@@ -5,7 +5,7 @@ function Ver_pela_janela_o_novo_exoplaneta_encontrado() {
   return (
 	<>
 							  <div className="borda" data-augmented-ui="tl-clip tr-clip-y br-2-clip-x both">
-  <div className="image planeta" data-augmented-ui="tl-2-clip-y tr-clip br-2-clip-x bl-clip both">
+  <div className="image-container image planeta image-container" data-augmented-ui="tl-2-clip-y tr-clip br-2-clip-x bl-clip both">
 		<img
 		  src="https://app.milanote.com/media/p/images/1QPk8J1zWD7n7O/QuF/Camada%202.png?w=400&v=2&elementId=1QPk8J1zWD7n7O"
 		  width="30%"
@@ -30,4 +30,4 @@ function Ver_pela_janela_o_novo_exoplaneta_encontrado() {
   );
 }
 
-export default Ver_pela_janela_o_novo_exoplaneta_encontrado
+export default Ver_pela_janela_o_novo_exoplaneta_encontrado;
