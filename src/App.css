@@ -43,7 +43,7 @@ body, button {
 	--aug-inlay-all: 0.5rem !important;
 }
 :root {
-	background-image: url("./img/Default_galaxy_0_novo.jpg");
+	background-image: url("./img/fundo.gif");
 	color: white;
 }
 .avatar {

@@ -1,6 +1,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import musica from './img/musica.webm'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Bem_vindo from './components/bem_vindo/Bem_vindo'
 import Creditos from './components/creditos/Creditos'
@@ -27,9 +28,11 @@ import Planet from './components/paginas/planet'
 import Final from './components/paginas/Final'
 
 function App() {
-
   return (
     <>
+<audio autoPlay loop controls={false}>
+        <source src={musica} type="audio/webm" />
+</audio>
       <BrowserRouter>
         <Routes>
           <Route path={"/"} element={<Bem_vindo/>}></Route>
