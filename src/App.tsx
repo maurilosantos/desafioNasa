@@ -24,8 +24,7 @@ import Sair_da_nave_e_explorar_o_planeta from './components/paginas/Sair_da_nave
 import AmbientePlantas from './components/paginas/AmbientePlantas'
 import Familia from './components/paginas/Familia'
 import Planet from './components/paginas/planet'
-// import Bem_vindo from './components/paginas/Bem_vindo'
-          // <Route path={"/Bem_vindo"} element={<Bem_vindo/>}></Route>
+import Final from './components/paginas/Final'
 
 function App() {
 
@@ -55,6 +54,7 @@ function App() {
           <Route path={"/AmbientePlantas"} element={<AmbientePlantas/>}></Route>
           <Route path={"/familia"} element={<Familia/>}></Route>
           <Route path={"/planet"} element={<Planet/>}></Route>
+          <Route path={"/Final"} element={<Final/>}></Route>
 
         </Routes>
       </BrowserRouter>
