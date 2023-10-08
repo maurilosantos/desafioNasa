@@ -1,25 +1,62 @@
- @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Titillium+Web&display=swap');
 h1,h2,h3 {
 	text-align: center;
 }
 body {
 	margin: 100px;
 }
- body, button {
-	 font-family: Titillium Web;
- }
+body, button {
+	font-family: Titillium Web;
+}
 .borda {
-	--aug-border-bg: yellow !important;
+	justify-content: center !important;
+	align-items: center !important;
+	--aug-border-bg: #5458a7 !important;
+	--aug-tr: 15px !important; 
 	padding: 22px;
+	--c1: black !important;
+	--aug-inlay-all: 0.5rem !important;
+	--aug-inlay-bg: #001237b8 !important;
 }
 .button {
-	--aug-border-bg: cyan !important;
+	--aug-border-bg: #9350ad !important;
 	--aug-border-all: 2px !important;
+	background-color: #f70ac8;
 	padding: 10px;
+	margin: 10px;
+	margin-top: 22px;
+	color: white;
 }
-
+.button:hover {
+	--aug-border-bg: #f70ac8 !important;
+	--aug-border-all: 1px !important;
+	background-color: #9350ad;
+	transition-delay: 10s;
+}
 .planeta{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.image {
+	--aug-border-bg: #9350ad !important;
+	--aug-inlay-all: 0.5rem !important;
+}
+:root {
+	background-image: url("./img/Default_galaxy_0_novo.jpg");
+	color: white;
+}
+.avatar {
+text-align:center;
+}
+.ia {
+	content: url("./img/ia.png");
+	width: 50px;
+	height: auto;
+	/* display: flex; */
+	/* padding-right:22px; */
+}
+.chat {
+	align-items: center;
+	display: flex;
 }

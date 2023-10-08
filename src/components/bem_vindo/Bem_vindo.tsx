@@ -5,10 +5,9 @@ import 'augmented-ui/augmented-ui.css';
 
 function bem_vindo() {
   return (
-    <>
       <div
         className="borda"
-        data-augmented-ui="tl-clip tr-clip bl-clip br-clip b-clip-x border"
+        data-augmented-ui="tl-clip tr-clip bl-clip br-clip b-clip-x both"
       >
         <h1>
           <Typewriter
@@ -31,7 +30,6 @@ function bem_vindo() {
           </button>
         </h3>
       </div>
-    </>
   );
 }
 
