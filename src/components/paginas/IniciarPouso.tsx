@@ -18,20 +18,21 @@ function IniciarPouso() {
             <img className="ia" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border" />
             <figcaption>Insalubera</figcaption>
           </figure>
-          <div className="typewriter">
-          <Typewriter
-				  text="My God! How quick the preparation of the dome was, but astronaut, you didn't forget to communicate with Earth, right? A whole planet wants to know what's going on with the NAZA team"
-            cursorSettings={{ color: "transparent" }}
-            typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
-          />
-          </div>
-      </div>
-      <Link to={"/Sair_da_nave_e_explorar_o_planeta"}>
-        <button className="button" data-augmented-ui="br-clip both">
-          <Glitch alphabet text="Exit the ship and explore the planet" />
-        </button>
-      </Link>
-    </div>
+		  <div className="typewriter">
+		  <Typewriter
+									  text="After a long time, we have finally arrived! Let's explore the specially named planet of Insalubers-63!"
+
+			cursorSettings={{ color: "transparent" }}
+			typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
+		  />
+		  </div>
+	  </div>
+	  <Link to={"/Sair_da_nave_e_explorar_o_planeta"}>
+		<button className="button" data-augmented-ui="br-clip both">
+		  <Glitch alphabet text="Exit the ship and explore the planet" />
+		</button>
+	  </Link>
+	</div>
   </>
   );
 }

@@ -35,7 +35,7 @@ function AmbientePlantas() {
           </figure>
           <div className="typewriter">
           <Typewriter
-				  text="My God! How quick the preparation of the dome was, but astronaut, you didn't forget to communicate with Earth, right? A whole planet wants to know what's going on with the NAZA team"
+				  text="My God! How quick the preparation of the dome was, but astronaut, you didn't forget to communicate with Earth, right? A whole planet wants to know what's going on with the NASA team"
             cursorSettings={{ color: "transparent" }}
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
           />

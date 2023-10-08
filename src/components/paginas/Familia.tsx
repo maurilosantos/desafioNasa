@@ -24,7 +24,7 @@ function Familia() {
           </figure>
           <div className="typewriter">
           <Typewriter
-text="Message: 'Earth, this is the NAZA team on Insalubers-63. Landing operations have been successful, and we are preparing our dome for growing food. Initial soil readings are promising and suggest that this planet could be a new home for humanity. We will continue to collect data and keep you updated on our progress. Rest assured, we are making history here. In this new world, a family's daily life is filled with wonder as they nurture and interact with their robotic-animal hybrids, creating a harmonious existence."
+text="Message: 'Earth, this is the NASA team on Insalubers-63. Landing operations have been successful, and we are preparing our dome for growing food. Initial soil readings are promising and suggest that this planet could be a new home for humanity. We will continue to collect data and keep you updated on our progress. Rest assured, we are making history here. In this new world, a family's daily life is filled with wonder as they nurture and interact with their robotic-animal hybrids, creating a harmonious existence."
 
             cursorSettings={{ color: "transparent" }}
             typeSettings={{ typeDelay: 0.8, stutterChance: 0.1 }}
