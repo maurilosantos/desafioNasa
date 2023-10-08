@@ -14,7 +14,7 @@ function bem_vindo() {
       >
         <h1>
           <Typewriter
-            text="Seja Bem Vindo!"
+            text="Welcome!"
             cursorSettings={{ color: "transparent" }}
             typeSettings={{ typeDelay: "0.8" }}
           />
