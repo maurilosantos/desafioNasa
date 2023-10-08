@@ -3,7 +3,7 @@ import { Glitch, Typewriter } from 'react-teffex';
 import './Creditos.css';
 import 'augmented-ui/augmented-ui.css';
 
-function creditos() {
+function Creditos() {
 const desenvolvedores = [
 {
 nome: "ALINE SOGLIA",
@@ -75,4 +75,4 @@ linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
   );
 }
 
-export default creditos;
+export default Creditos;

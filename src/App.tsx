@@ -20,6 +20,7 @@ import Consegue_obter_mais_dados_sobre_ele from './components/paginas/Consegue_o
 import Si_aproximar_do_novo_exoplaneta from './components/paginas/Si_aproximar_do_novo_exoplaneta'
 import Ver_pela_janela_o_novo_exoplaneta_encontrado from './components/paginas/Ver_pela_janela_o_novo_exoplaneta_encontrado'
 import IniciarPouso from './components/paginas/IniciarPouso'
+import Sair_da_nave_e_explorar_o_planeta from './components/paginas/Sair_da_nave_e_explorar_o_planeta'
 import AmbientePlantas from './components/paginas/AmbientePlantas'
 import Familia from './components/paginas/Familia'
 // import Bem_vindo from './components/paginas/Bem_vindo'
@@ -49,6 +50,7 @@ function App() {
           <Route path={"/Si_aproximar_do_novo_exoplaneta"} element={<Si_aproximar_do_novo_exoplaneta/>}></Route>
           <Route path={"/Ver_pela_janela_o_novo_exoplaneta_encontrado"} element={<Ver_pela_janela_o_novo_exoplaneta_encontrado/>}></Route>
           <Route path={"/Iniciar_o_pouso"} element={<IniciarPouso/>}></Route>
+          <Route path={"/Sair_da_nave_e_explorar_o_planeta"} element={<Sair_da_nave_e_explorar_o_planeta/>}></Route>
           <Route path={"/AmbientePlantas"} element={<AmbientePlantas/>}></Route>
           <Route path={"/familia"} element={<Familia/>}></Route>
 
