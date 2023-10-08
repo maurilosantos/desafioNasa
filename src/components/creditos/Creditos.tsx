@@ -3,7 +3,7 @@ import { Glitch, Typewriter } from 'react-teffex';
 import './Creditos.css';
 import 'augmented-ui/augmented-ui.css';
 
-function creditos() {
+function Creditos() {
 const desenvolvedores = [
 {
 nome: "ALINE SOGLIA",
@@ -65,7 +65,7 @@ linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
 	  </div>
 	  </div>
 		<h3>
-		  <Link to={"/Insalluvion"}>
+		  <Link to={"/"}>
 			<button className="button" data-augmented-ui="br-clip border">
 			  <Glitch alphabet text="BACK" />
 			</button>
@@ -75,4 +75,4 @@ linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
   );
 }
 
-export default creditos;
+export default Creditos;
