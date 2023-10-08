@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Glitch, Typewriter } from 'react-teffex';
 
 function E_qual_e_a_nossa_missao() {
-  return (
+  return ( 
     <>
       <div className="container" data-augmented-ui="tl-clip tr-clip-y br-2-clip-x both">
         <div className="avatar-chat-container">
