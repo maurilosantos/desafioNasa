@@ -12,31 +12,27 @@ function Escolher_GJ_1132b() {
       />
       <p>
         <Typewriter
-          text="
-Insalubera: Chegamos ao GJ 1132b, um planeta muito semelhante a um mini Netuno, 
-mas agora é um mundo rochoso, um pouco maior que a Terra. Sua atmosfera foi 
-construída pela alta atividade vulcânica. De acordo com os meus dados, ele foi 
-descoberto em 2015. E olha só, o Hubble tem alguns dados sobre esse planeta também, 
-hmm… Mas isso não é nada bom, sua atmosfera é composta com diversos tipos de gases 
-fotoquímicos, como metano e um aerossol de hidrocarbonetos, parecido com a poluição 
-terrestre. Acho que isso não faz muito bem para os pulmões humanos."
+          text="Insalubera: We've arrived at GJ 1132b, a planet very similar to a mini Neptune, but now it's a rocky world, slightly larger than Earth. Its atmosphere was built by high volcanic activity. According to my data, it was discovered in 2015. And look, Hubble has some data on this planet too, hmm... But that's not good news; its atmosphere is composed of various types of photochemical gases, such as methane and a hydrocarbon aerosol, similar to Earth's pollution. I don't think that's very good for human lungs."
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
       </p>
       <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text="Voltar a escolha dos Exoplanetas" />
+          <Glitch alphabet text="Go back to the Exoplanet selection" />
         </button>
       </Link>
       <Link to={"/Escolher_Kelt_9b"}>
         <button className="button" data-augmented-ui="br-clip border">
-           <Glitch alphabet text="Ir para Kelt-9b" />
+          <Glitch alphabet text="Go to Kelt-9b" />
         </button>
       </Link>
       <Link to={"/Escolher_HD_189733_b"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text="Ir para HD 189733 b" />
+          <Glitch
+            alphabet
+            text="Go to HD 189733 b"
+          />
         </button>
       </Link>
     </>

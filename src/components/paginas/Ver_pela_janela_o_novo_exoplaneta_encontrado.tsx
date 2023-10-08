@@ -14,7 +14,7 @@ function Ver_pela_janela_o_novo_exoplaneta_encontrado() {
       </p>
       <Link to={"/Iniciar_o_pouso"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text="Iniciar o pouso" />
+          <Glitch alphabet text="Initiate the landing" />
         </button>
       </Link>
     </>

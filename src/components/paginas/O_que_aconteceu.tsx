@@ -7,14 +7,16 @@ function O_que_aconteceu() {
     <>
       <p>
         <Typewriter
-          text="
-Insalubera: Estou detectando um novo planeta na região, tentei buscar algo sobre ele em outros bancos de dados, mas não consegui encontrar nada."
+          text="Insalubera: I am detecting a new planet in the region. I tried to search for information about it in other databases, but I couldn't find anything."
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
       </p>
       <Link to={"/Voce_acha_que_e_seguro_se_aproximar"}>
-        <button>Você acha que é seguro se aproximar?</button>
+        <button className="button" data-augmented-ui="br-clip border">
+          <Glitch
+            alphabet
+            text="Do you think it's safe to approach?" /></button>
       </Link>
     </>
   );

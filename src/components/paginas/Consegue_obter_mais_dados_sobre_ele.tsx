@@ -8,21 +8,18 @@ function Consegue_obter_mais_dados_sobre_ele() {
       <p>
         <Typewriter
           text="
-	Insalubera: Claro! Aqui estão alguns dados importantes que consegui obter até agora: 
-  Esse planeta tem uma superficíe rochosa e mais árida que a do planeta Terra, seu tamanho também 
-  é um pouco menor, com aproximadamente 83% de seu tamanho, mas há um campo magnético para reflexão 
-  dos raios solares, sua estrela está a uma distancîa dentro dos padrões e parece que sua temperatura 
-  está razoavél para os padões humanos. E... Veja isso! Há uma grande probabilidade de ter água nesse 
-  planeta!"
+	Insalubera: Of course! Here are some important data I managed to obtain so far: This planet has a rocky and more arid surface than Earth's, and it's slightly smaller, approximately 83% of Earth's size. However, it has a magnetic field to deflect solar rays, its star is at a standard distance, and its temperature seems reasonable by human standards. And... look at this! There's a high probability of water being present on this planet!
+
+
+"
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
       </p>
       <Link to={"/Si_aproximar_do_novo_exoplaneta"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch
-            alphabet
-            text="Si aproximar do novo exoplaneta"/></button>
+          <Glitch alphabet text="Approach the new exoplanet" />
+        </button>
       </Link>
     </>
   );

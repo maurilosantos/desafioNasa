@@ -8,19 +8,15 @@ function Escolher_Insalubers_63() {
       <p>
         <Typewriter
           text="
-Insalubera: Meus sensores estão confusos???
-//Recalculando...//
-
-Isso é estranho, mas os cálculos estão corretos..."
+IInsalubera: My sensors are confused??? //Recalculating...// This is strange, but the calculations are correct…"
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
       </p>
       <Link to={"/O_que_aconteceu"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch
-            alphabet
-            text="O que aconteceu?" /></button>
+          <Glitch alphabet text="What happened?" />
+        </button>
       </Link>
     </>
   );

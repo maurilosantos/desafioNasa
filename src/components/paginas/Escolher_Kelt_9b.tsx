@@ -12,26 +12,24 @@ function Escolher_Kelt_9b() {
       />
       <p>
         <Typewriter
-          text="
-Insalubera: Sinto meus sensores superaquecendo, está realmente muito calor aqui… Dá pra sentir que estamos perto de Kelt-9b, o planeta mais quente já registrado em meu banco de dados. Nenhuma molécula resiste ao seu lado claro, esse planeta possui uma estrela duas vezes maior que o sol. Acho que esse não seria um bom lugar para morar.
-	Bom dia, Tribulante! Está na hora de acordar, temos muito trabalho a fazer hoje."
+          text="Insalubera: I feel my sensors overheating; it's really hot here... You can tell we're close to Kelt-9b, the hottest planet ever recorded in my database. No molecule can withstand its bright side; this planet has a star twice the size of the sun. I don't think this would be a good place to live."
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
       </p>
       <Link to={"/Voltar_a_escolha_dos_Exoplanetas"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text="Voltar a escolha dos Exoplanetas" />
+          <Glitch alphabet text="Go back to the Exoplanet selection" />
         </button>
       </Link>
       <Link to={"/Escolher_GJ_1132b"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text=">Ir para GJ 1132b" />
+          <Glitch alphabet text="Go to GJ 1132b" />
         </button>
       </Link>
       <Link to={"/Escolher_HD_189733_b"}>
         <button className="button" data-augmented-ui="br-clip border">
-          <Glitch alphabet text=">Ir para HD 189733 b" />
+          <Glitch alphabet text="Go to HD 189733 b" />
         </button>
       </Link>
     </>

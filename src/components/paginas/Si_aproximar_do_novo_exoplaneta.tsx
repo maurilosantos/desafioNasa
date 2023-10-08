@@ -7,8 +7,7 @@ function Bem_vindo() {
     <>
       <p>
         <Typewriter
-          text="
-	Insalubera: Aproximando-se do novo exoplaneta. Prepare-se para uma vista espetacular!"
+          text="Insalubera: Approaching the new exoplanet. Get ready for a spectacular view!"
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
@@ -17,7 +16,7 @@ function Bem_vindo() {
         <button className="button" data-augmented-ui="br-clip border">
           <Glitch
             alphabet
-            text="Ver pela janela o novo exoplaneta encontrado"
+            text="Look out the window at the new exoplanet we found"
           />
         </button>
       </Link>

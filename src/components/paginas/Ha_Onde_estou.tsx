@@ -7,9 +7,7 @@ function Ha_Onde_estou() {
     <>
       <p>
         <Typewriter
-          text="
-Insalubera: Bem, parece que sua memória não está muito boa hoje... 
-Vou tentar te dar um panorama geral: estamos em 2435, a vida na Terra está entrando em extinção devido as pessimas condições do planeta. Sabe, poluição, escassez de água potavél, aquecimento da atmosféra... Esse tipo de coisa. Nossa missão é encontrar um novo lugar para que a humanidade possa se desenvolver. Espero que vocês não destuam esse lugar também..."
+          text="Insalubera: Well, it seems like your memory isn't very good today... I'll try to give you an overview: it's the year 2435, life on Earth is facing extinction due to the planet's dire conditions. You know, pollution, scarcity of clean water, atmospheric warming... that kind of thing. Our mission is to find a new place for humanity to thrive. I hope you don't destroy this place too..."
           cursorSettings={{ color: "transparent" }}
           typeSettings={{ typeDelay: "0.8" }}
         />
@@ -19,7 +17,7 @@ Vou tentar te dar um panorama geral: estamos em 2435, a vida na Terra está entr
           <Glitch
             alphabet
             text="
-E qual é a nossa missão?
+And what is our mission?
     "
           />
         </button>
