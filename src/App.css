@@ -76,3 +76,25 @@ text-align:center;
 	max-width: 450px; /* Define um limite máximo de largura para a imagem */
   }
   /*______________________________*/
+
+  /* CSS do Insalluvion: */
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Centraliza o conteúdo horizontalmente */
+	text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  
+  .avatar-chat-container {
+	margin-bottom: 20px; /* Espaçamento entre o avatar/Typewriter e os botões */
+  }
+  
+  .button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Centraliza os botões horizontalmente */
+  }
+
+  /*______________________*/
+  
