@@ -22,12 +22,14 @@ function bem_vindo() {
               <Glitch alphabet text="START" />
             </button>
           </Link>
+          <Link to={"/Creditos"}>
           <button className="button" data-augmented-ui="br-clip border">
             <Typewriter
               text="CREDITS"
               cursorSettings={{ color: "transparent" }}
             />
           </button>
+          </Link>
         </h3>
       </div>
   );

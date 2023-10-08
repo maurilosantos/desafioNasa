@@ -3,6 +3,7 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Bem_vindo from './components/bem_vindo/Bem_vindo'
+import Creditos from './components/creditos/Creditos'
 import Insalluvion from './components/paginas/Insalluvion'
 import Ha_Onde_estou from './components/paginas/Ha_Onde_estou'
 import O_que_esta_acontecendo from './components/paginas/O_que_esta_acontecendo'
@@ -31,6 +32,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path={"/"} element={<Bem_vindo/>}></Route>
+          <Route path={"/creditos"} element={<Creditos/>}></Route>
           <Route path={"/Insalluvion"} element={<Insalluvion/>}></Route>
           <Route path={"/Ha_Onde_estou"} element={<Ha_Onde_estou/>}></Route>
           <Route path={"/O_que_esta_acontecendo"} element={<O_que_esta_acontecendo/>}></Route>
