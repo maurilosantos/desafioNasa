@@ -60,3 +60,19 @@ text-align:center;
 	align-items: center;
 	display: flex;
 }
+
+/*CSS do componente Ver_pela_janela_o_novo_exoplaneta_encontrado */
+
+.image-container {
+	max-width: 100%;
+	text-align: center; /* Centraliza a imagem na tela */
+	
+
+  }
+  
+  .planet-image {
+	width: 100%; /* Ajusta a largura da imagem para ocupar todo o contêiner */
+	height: auto; /* Mantém a proporção da imagem */
+	max-width: 450px; /* Define um limite máximo de largura para a imagem */
+  }
+  /*______________________________*/
