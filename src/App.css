@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Titillium+Web&display=swap');
+h1,h2,h3 {
+	text-align: center;
+}
+body {
+	margin: 100px;
+}
+ body, button {
+	 font-family: Titillium Web;
+ }
+.borda {
+	--aug-border-bg: yellow !important;
+	padding: 22px;
+}
+.button {
+	--aug-border-bg: cyan !important;
+	--aug-border-all: 2px !important;
+	padding: 10px;
+}

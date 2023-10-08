@@ -1,18 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { Glitch, Typewriter } from "react-teffex";
 
 function Insalluvion() {
    
   return (
     <>
-	<p>
-	Insalubera: Bom dia, Tribulante! Está na hora de acordar, temos muito trabalho a fazer hoje. 
-	</p>
+	<p><Typewriter text="
+	Insalubera: Bom dia, Tripulante! Está na hora de acordar, temos muito trabalho a fazer hoje.
+	"
+	cursorSettings={{color: "transparent"}}/></p>
       <Link to={"/Ha_Onde_estou"}>
-<button>Hã? Onde estou?</button>
+    <button className="button" data-augmented-ui="br-clip border"><Glitch alphabet text="
+Hã? Onde estou?
+    "/></button>
       </Link>
       <Link to={"/O_que_esta_acontecendo"}>
-<button>O que está acontecendo?</button>
+    <button className="button" data-augmented-ui="br-clip border"><Glitch alphabet text="O que está acontecendo"/></button>
       </Link>
     </>
   );
