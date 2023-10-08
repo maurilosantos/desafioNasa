@@ -49,12 +49,18 @@ body, button {
 .avatar {
 text-align:center;
 }
-.ia {
-	content: url("./img/ia.png");
-	width: 50px;
+.ia, .ia_confusa, .ia_confusa2 {
+	width: 70px;
 	height: auto;
-	/* display: flex; */
-	/* padding-right:22px; */
+}
+.ia_confusa {
+	content: url("./img/ia_confusa.gif");
+}
+.ia_confusa2 {
+	content: url("./img/ia_confusa2.gif");
+}
+.ia {
+	content: url("./img/ia_rotation.gif");
 }
 .chat {
 	align-items: center;

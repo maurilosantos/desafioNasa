@@ -26,6 +26,7 @@ function Familia() {
       <Link to={"/planet"}>
         <button className="button" data-augmented-ui="br-clip border">
           <Glitch alphabet text="The Description" />
+
         </button>
       </Link>
     </div>

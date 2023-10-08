@@ -27,6 +27,7 @@ function Ver_pela_janela_o_novo_exoplaneta_encontrado() {
         </button>
       </Link>
     </>
+
   );
 }
 
