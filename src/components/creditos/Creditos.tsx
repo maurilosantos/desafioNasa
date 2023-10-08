@@ -65,7 +65,7 @@ linkedin: "https://www.linkedin.com/in/larissamarquespimenta/",
 	  </div>
 	  </div>
 		<h3>
-		  <Link to={"/Insalluvion"}>
+		  <Link to={"/"}>
 			<button className="button" data-augmented-ui="br-clip border">
 			  <Glitch alphabet text="BACK" />
 			</button>
