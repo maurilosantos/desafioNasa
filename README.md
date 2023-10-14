@@ -21,7 +21,7 @@ This project is part of the NASA International Space Apps Challenge, with the ch
 
 Through storytelling, we provide a means to follow the expedition and explore not only planets already discovered by NASA but also our own created with artificial intelligence. Enjoy the journey!
 
-## 📽 Execução
+## 📽 Execute
 
 Access it [here](https://desafio-nasa.vercel.app/).
 
